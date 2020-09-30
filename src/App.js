@@ -29,12 +29,6 @@ function App() {
 			<div className='hour'>
 				<div className='hr' style={{ transform: `rotateZ(${hour}deg)` }}></div>
 			</div>
-			<div className='min'>
-				<div className='mn' style={{ transform: `rotateZ(${min}deg)` }}></div>
-			</div>
-			<div className='sec'>
-				<div className='sc' style={{ transform: `rotateZ(${sec}deg)` }}></div>
-			</div>
 		</div>
 	);
 }
